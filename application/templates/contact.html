@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Cryptocurrency Landing Page Template">
+	<meta name="keywords" content="cryptocurrency, unica, creative, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="../static/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../static/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="../static/css/themify-icons.css"/>
+	<link rel="stylesheet" href="../static/css/owl.carousel.css"/>
+	<link rel="stylesheet" href="../static/css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<!-- Prélude à la page -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Section d'en-tête -->
+	<header class="header-section clearfix">
+		<div class="container-fluid">
+			<a href="index.html" class="site-logo">
+				<!-- <img src="img/logo.png" alt=""> -->
+				<p style="font-weight: bolder; font-size: 20px;">YAVE TECHNOLOGY</p>
+			</a>
+			<div class="responsive-bar"><i class="fa fa-bars"></i></div>
+		</div>
+	</header>
+	<!-- Fin -->
+
+
+
+	<!-- Section d'information sur la page -->
+	<section class="page-info-section" style="background-image: url(../static/img/page-info-bg_c.png);">
+		<div class="container">
+			<h2>Nous contactez</h2>
+			<div class="site-beradcamb">
+				<a href="index.html">Accueil</a>
+				<span><i class="fa fa-angle-right"></i>Nous contactez</span>
+			</div>
+		</div>
+	</section>
+	<!-- Fin -->
+
+
+
+	<!-- Section Contact -->
+	<section class="contact-page spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7">
+					<form class="contact-form" method="post" action="">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<input class="check-form" type="text" placeholder="Nom*:" required name="nom">
+									<span><i class="ti-check"></i></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<input class="check-form" type="text" placeholder="Prenom*:" required name="prenom">
+									<span><i class="ti-check"></i></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<input class="check-form" type="text" placeholder="Email*:" required name="email">
+									<span><i class="ti-check"></i></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<input class="check-form" type="tel" placeholder="Numero de telephone*:" required name="telephone">
+									<span><i class="ti-check"></i></span>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<textarea placeholder="Posez nous vos preocupation!" required name="preocupation"></textarea>
+								</div>
+								<h5 class="mb-3">Chemins vers les contacts<span>*</span>:</h5>
+								<div class="contact-type">
+									<label class="ct-label">Telephone
+										<input type="radio" name="radio">
+										 <span class="checkmark"></span>
+									</label>
+									<label class="ct-label">Email
+										<input type="radio" name="radio">
+										 <span class="checkmark"></span>
+									</label>
+									<label class="ct-label">Autre
+										<input type="radio" name="radio">
+										 <span class="checkmark"></span>
+									</label>
+								</div>
+
+								<input type="submit" class="site-btn sb-gradients mt-4" name="submit" >
+								<p style="font-size: 25px;">{{sended}}</p>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="col-lg-5 mt-5 mt-lg-0">
+					<div class="map" id="map-canvas"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Fin de la section Contact -->
+
+
+	<!-- Newsletter section -->
+	<section class="newsletter-section gradient-bg">
+		<div class="container text-white">
+			<div class="row">
+				<div class="col-lg-7 newsletter-text">
+					<h2>Abonnez-vous à notre newsletter</h2>
+					<p>Inscrivez-vous pour nos mises à jour hebdomadaires de l'industrie, nos perspectives d'initiés et nos analyses de marché approfondies.</p>
+				</div>
+				<div class="col-lg-5 col-md-8 offset-lg-0 offset-md-2">
+					<form class="newsletter-form">
+						<input type="text" placeholder="Enter your email">
+						<button>Commencer</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Newsletter section end -->
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="../static/js/jquery-3.2.1.min.js"></script>
+	<script src="../static/js/owl.carousel.min.js"></script>
+	<script src="../static/js/main.js"></script>
+
+
+
+	<!-- load for map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0YyDTa0qqOjIerob2VTIwo_XVMhrruxo"></script>
+	<script src="../static/js/map.js"></script>
+
+</body>
+</html>

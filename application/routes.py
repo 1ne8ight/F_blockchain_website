@@ -46,7 +46,7 @@ def envoyer():
         # msg.html = "<p>" + preocupation + "</p>"
         mail.send(msg)
         
-        return render_template("contact.html", sended="Message Envoyer")
+        return render_template("contact.html", sended="Message Envoyer!!")
 
 
 

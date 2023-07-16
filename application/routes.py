@@ -3,6 +3,7 @@ from flask import render_template, redirect, url_for, request
 from flask_mail import Mail, Message
 from application.config import Config
 
+
 #appliquer les config de notre boite mail de reception
 app.config.from_object(Config)
 mail = Mail(app)

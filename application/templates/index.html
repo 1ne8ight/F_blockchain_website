@@ -259,7 +259,7 @@
                             <div class="single-footer newsletter">
                                 <h3>Abonnez-vous</h3>
                                 <p>Inscrivez-vous à notre newsletter pour recevoir les dernières mises à jour</p>
-                                <form action="#" method="get" target="_blank" class="newsletter-form">
+                                <form action="{{url_for('newsletter_page')}}" method="POST" target="_blank" class="newsletter-form">
                                     <input name="EMAIL" placeholder="Email address" required="required" type="email">
                                     <div class="button">
                                         <button class="sub-btn"><i class="lni lni-envelope"></i>

@@ -14,3 +14,12 @@ class Config :
     MAIL_DEFAULT_SENDER = ('Flask Mailer', 'tanoheliezer@gmail.com')
     MAIL_MAX_EMAILS = None
     MAIL_ASCII_ATTACHMENTS = False
+
+#config bd
+
+class Config_bdd :
+    MYSQL_HOST = 'localhost'
+    MYSQL_USER = 'root'
+    MYSQL_PASSWORD = ''
+    MYSQL_DB = 'blockchain_newsletters'
+

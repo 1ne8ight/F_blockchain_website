@@ -34,6 +34,10 @@ def newsletter():
 def index():
     return render_template('index.html')
 
+@app.route('/https://e-university.site')
+def yave():
+    return redirect('https://www.e-university.site')
+
 
 
 

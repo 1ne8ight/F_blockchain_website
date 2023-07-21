@@ -109,14 +109,14 @@ def crypto():
     return render_template('crypto.html')
 
 #chemin vers la page de metaverse
-@app.route('/metaverse.html')
-def metaverse():
-    return render_template('metaverse.html')
+# @app.route('/metaverse.html')
+# def metaverse():
+#     return render_template('metaverse.html')
 
 #chemin vers la page de nft
-@app.route('/nft.html')
-def nft():
-    return render_template('nft.html')
+@app.route('/Dapps.html')
+def Dapps():
+    return render_template('Dapps.html')
 
 #chemin vers la page de web3
 @app.route('/web3.html')
